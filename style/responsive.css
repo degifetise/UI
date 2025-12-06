@@ -24,7 +24,9 @@ transition: .4s;
 #navbar.showNavbar{
 right: 0;
 }
-
+#navbar.remove-nav{
+right: -3000px;
+}
 /* header nav ul{
 display: flex;
 flex-direction: column;

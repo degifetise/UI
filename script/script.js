@@ -65,6 +65,10 @@ bar.addEventListener("click", () => {
     barHide.classList.remove("fa-times");
     barHide.classList.add("fa-bars");
   }
+
+  document.querySelector(".fa-times").addEventListener("click", () => {
+    navbar.classList.toggle('remove-nav');
+  });
 });
 
 //date  todays//
