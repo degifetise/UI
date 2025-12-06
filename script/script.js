@@ -50,7 +50,7 @@ function eraseEffect() {
   }
 }
 typeEffect();
-eraseEffect();
+
 //bars sections//
 
 const navbar = document.getElementById("navbar");
@@ -66,9 +66,6 @@ bar.addEventListener("click", () => {
     barHide.classList.add("fa-bars");
   }
 
-  document.querySelector(".fa-times").addEventListener("click", () => {
-    navbar.classList.toggle('remove-nav');
-  });
 });
 
 //date  todays//
