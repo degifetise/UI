@@ -49,6 +49,12 @@ align-items: center;
 margin-bottom: 12px;
 justify-content: center;
 } */
+
+/*hero sections*/
+.hero {
+  padding: 50px 10px;
+  height: 90vh;
+}
   /*about me section responsivennes starts*/
   .about-container {
     flex-direction: column;
